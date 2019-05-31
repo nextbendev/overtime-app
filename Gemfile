@@ -50,7 +50,7 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'rails_12factor', '~> 0.0.3'
 gem 'honeybadger', '~> 4.3', '>= 4.3.1'
 gem 'newrelic_rpm', '~> 6.4', '>= 6.4.0.356'
-
+gem 'bundler', '~> 2.0', '>= 2.0.1'
 
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
