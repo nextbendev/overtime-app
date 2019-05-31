@@ -18,7 +18,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec', '~> 3.8'
+  gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
   gem 'capybara', '>= 2.15'
   gem 'database_cleaner', '~> 1.7'
   gem 'factory_girl_rails', '~> 4.9'
@@ -40,7 +40,7 @@ end
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'gritter', '~> 1.2'
-gem 'administrate', github: 'greetpoint/administrate', branch: 'rails5'
+gem 'administrate', '~> 0.11.0'
 gem 'bourbon', '~> 5.1'
 gem 'pundit', '~> 2.0', '>= 2.0.1'
 gem 'puma', '~> 3.11'
