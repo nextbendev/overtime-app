@@ -14,6 +14,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'sdoc', '~> 1.0'
 gem 'bootsnap', '~> 1.4', '>= 1.4.4'
+gem 'pg', '~> 1.1', '>= 1.1.4'
 
 
 group :development, :test do
