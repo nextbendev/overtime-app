@@ -298,7 +298,7 @@ PLATFORMS
 
 DEPENDENCIES
   administrate (~> 0.11.0)
-  bootsnap (>= 1.1.0)
+  bootsnap (~> 1.4, >= 1.4.4)
   bootstrap-sass (~> 3.4, >= 3.4.1)
   bourbon (~> 5.1)
   bundler (~> 2.0, >= 2.0.1)
@@ -313,6 +313,7 @@ DEPENDENCIES
   gritter (~> 1.2)
   honeybadger (~> 4.3, >= 4.3.1)
   jbuilder (~> 2.5)
+  jquery-rails (~> 4.3, >= 4.3.3)
   kaminari (~> 1.1, >= 1.1.1)
   listen (>= 3.0.5, < 3.2)
   newrelic_rpm (~> 6.4, >= 6.4.0.356)
@@ -326,7 +327,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3
+  sqlite3 (~> 1.4, >= 1.4.1)
   turbolinks (~> 5)
   twilio-ruby (~> 5.23, >= 5.23.1)
   tzinfo-data
